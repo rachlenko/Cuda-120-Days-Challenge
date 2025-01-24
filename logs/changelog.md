@@ -3,3 +3,30 @@
 - **Day 2:** Installed CUDA Toolkit and ran sample codes.
 - **Day 3:** Compared GPU SMs and CPU cores.
 - **Day 4:** Launched kernels with different grid/block dimensions.
+## October 2023
+- **Day 1:** Added Day 1 notes and project setup.
+- **Day 3:** Compared GPU SMs and CPU cores.
+- **Day 4:** Launched kernels with different grid/block dimensions.
+- **Day 8:** Used cudaMalloc/cudaFree; practiced error checking.
+- **Day 9:** Benchmarked coalesced vs. non-coalesced memory accesses.
+- **Day 10:** Implemented tile-based matrix multiplication using shared memory.
+- **Day 11:** Extended tile-based multiplication with sync calls.
+- **Day 12:** Tested access patterns causing bank conflicts.
+- **Day 13:** Used atomicAdd to sum an array in parallel.
+- **Day 14:** Quick recap or quiz: global vs. shared memory usage.
+- **Day 15:** Experimented with atomicCAS, atomicExch, etc.
+- **Day 16:** Adjusted block sizes for the same kernel.
+- **Day 17:** Used cudaDeviceSynchronize() for timing.
+- **Day 18:** Implemented robust error checks after each CUDA call.
+- **Day 19:** Used cudaMallocManaged; ran simple vector addition.
+- **Day 20:** Implemented 2D convolution (edge detection) on the GPU.
+- **Day 21:** Launched two kernels in different streams.
+- **Day 22:** Used CUDA events for precise kernel timing.
+- **Day 23:** Copied data using streams asynchronously.
+- **Day 24:** Compared pinned vs. pageable host memory transfers.
+- **Day 25:** Implemented a two-buffer pipeline to overlap compute and transfer.
+- **Day 26:** Used constant memory for read-only data.
+- **Day 27:** Sampled a small 2D texture; compared vs. global memory fetch.
+- **Day 28:** Recap concurrency & memory (short quiz or multi-topic mini-project).
+- **Day 29:** Implemented image-processing kernel (e.g., grayscale) using textures.
+- **Day 30:** Wrote operations using surfaces (e.g., output image buffer).
