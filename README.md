@@ -185,3 +185,7 @@ Six Capstone Projects are spread out at Days 20, 40, 60, 80, 100, and 120 to syn
 ---
 
 Happy coding, and best of luck on your **120-Day CUDA Journey**!
+
+## Repository Activity
+
+For the latest repository activity, see [Repository Activity Log](logs/repository-activity.md).
