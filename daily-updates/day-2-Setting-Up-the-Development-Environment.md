@@ -225,7 +225,7 @@ Block 1, Thread 0
    System-wide profiling and concurrency visualization.
 3. **[Nsight Compute User Guide](https://docs.nvidia.com/nsight-compute/)**  
    Kernel-level performance metrics and optimization insights.
-4. **[CMake for CUDA](https://cmake.org/cmake/help/latest/guide/cmake-cuda.html)**  
+4. **[CMake for CUDA](https://cmake.org/cmake/help/latest/module/FindCUDAToolkit.html)**  
    Official docs on enabling CUDA in CMake-based workflows.
 5. **[cuda-memcheck Documentation](https://docs.nvidia.com/cuda/cuda-memcheck/index.html)**  
    Detecting GPU memory errors.
