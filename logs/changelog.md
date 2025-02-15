@@ -30,3 +30,35 @@
 - **Day 28:** Recap concurrency & memory (short quiz or multi-topic mini-project).
 - **Day 29:** Implemented image-processing kernel (e.g., grayscale) using textures.
 - **Day 30:** Wrote operations using surfaces (e.g., output image buffer).
+
+## Februrary 2024
+- **Day 31:** Used cudaMallocManaged with multiple kernels; measured page-fault overhead.
+- **Day 32:** Enforced execution order with events or cudaStreamWaitEvent().
+- **Day 33:** Converted a kernel sequence into a CUDA graph; measured performance.
+- **Day 34:** Profiled a small app to find bottlenecks; read kernel timelines.
+- **Day 35:** Used the Occupancy Calculator to refine block size for better SM use.
+- **Day 36:** Profiled matrix multiplication or similar; identified memory vs. compute limits.
+- **Day 37:** Used warp shuffle instructions for a small parallel reduce.
+- **Day 38:** Wrote a kernel with branching; measured performance difference.
+- **Day 39:** Launched kernels from within a kernel to handle subdivided tasks.
+- **Day 40:** Implemented Sparse Matrix-Vector Multiplication for large sparse data sets.
+- **Day 41:** Launched multiple kernels in parallel using multiple streams.
+- **Day 42:** Recap concurrency, warp ops, dynamic parallelism.
+- **Day 43:** Mapped host memory into device space (zero-copy); measured overhead vs. pinned.
+- **Day 44:** Implemented a warp-wide prefix sum with __shfl_down_sync.
+- **Day 45:** Used cooperative groups for flexible synchronization within blocks or grids.
+- **Day 46:** Enabled P2P for direct data transfers (if you have multiple GPUs).
+- **Day 47:** Used cuda-gdb or Nsight Eclipse for step-by-step debugging.
+- **Day 48:** Reduced shared memory or register usage; measured occupancy.
+- **Day 49:** Replaced custom loops with Thrust transforms, sorts, reductions.
+- **Day 50:** Performed basic vector/matrix ops with cuBLAS, compared to custom kernels.
+- **Day 51:** Implemented a simple 1D FFT on the GPU; measured performance.
+- **Day 52:** Applied loop unrolling or register usage tweaks; measured improvements.
+- **Day 53:** Analyzed PTX, applied instruction-level optimizations.
+- **Day 54:** Examined occupancy, memory throughput, and instruction mix.
+- **Day 55:** Generated random numbers (cuRAND); ran a Monte Carlo simulation.
+- **Day 56:** Recap concurrency (multi-stream), libraries, optimization.
+- **Day 57:** Expanded error checking macros; advanced debugging with cuda-gdb.
+- **Day 58:** Chunked large arrays with streaming techniques.
+- **Day 59:** Enabled MPS for sharing GPU among multiple processes (if supported).
+- **Day 60:** Implemented Multi-Stream Data Processing: Overlap transfers & kernels for real-time feeds.
