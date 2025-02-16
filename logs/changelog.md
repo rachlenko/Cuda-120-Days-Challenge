@@ -62,3 +62,45 @@
 - **Day 58:** Chunked large arrays with streaming techniques.
 - **Day 59:** Enabled MPS for sharing GPU among multiple processes (if supported).
 - **Day 60:** Implemented Multi-Stream Data Processing: Overlap transfers & kernels for real-time feeds.
+## February 2023
+- **Day 80:** Implemented Multi-GPU Matrix Multiply: Split large matrix across 2 GPUs.
+- **Day 81:** Tried a grid-level cooperative kernel needing all blocks to sync.
+- **Day 82:** Used batched operations (cuBLAS batched GEMM) for efficiency.
+- **Day 83:** Integrated a small NN layer using cuDNN if possible.
+- **Day 84:** Reflect on concurrency, multi-GPU, libraries.
+- **Day 85:** Used Nsight Compute to track instruction throughput for tight kernels.
+- **Day 86:** Compared effects of occupancy vs. ILP (Instruction-Level Parallelism).
+- **Day 87:** Extended your memory pool design with stream-ordered allocations.
+- **Day 88:** Merged multiple small kernels into a single kernel to reduce launch overhead.
+- **Day 89:** Refined tiling or blocking for matrix multiply, convolution, etc.
+- **Day 90:** Used pinned memory, async transfers, or kernel-side generation to limit PCIe overhead.
+- **Day 91:** Explored multi-file, multi-module approach with separate compilation.
+- **Day 92:** Diagnosed a race or deadlock in a complex multi-stream or multi-block scenario.
+- **Day 93:** If real-time constraints exist, explored low-latency execution patterns.
+- **Day 94:** Used multiple CPU threads to launch kernels/manage streams concurrently.
+- **Day 95:** Dynamically updated parts of a CUDA graph without a full rebuild.
+- **Day 96:** Examined rounding, float vs. double, iterative error accumulation.
+- **Day 97:** Used GPU-GPU RDMA or multi-node scaling in a cluster environment.
+- **Day 98:** Recap advanced debugging, multi-threaded host, graphs, precision.
+- **Day 99:** Built a multi-kernel DAG with conditional branches/loops using CUDA Graphs.
+- **Day 100:** CUDA Graph-Optimized Workload: Merge multiple kernels + copies into one graph.
+- **Day 101:** If possible, integrated a custom kernel/layer into TensorFlow or PyTorch.
+- **Day 102:** Explored hybrid CPU/GPU parallelism (OpenMP, MPI).
+- **Day 103:** Profiled a small neural net or inference pipeline; identified GPU hotspots.
+- **Day 104:** Distributed training across multiple GPUs or data parallel approach.
+- **Day 105:** Reviewed HPC patterns (PDE solvers, climate modeling) for GPU acceleration.
+- **Day 106:** Used half or custom data types for HPC kernels if feasible.
+- **Day 107:** Used cuda-memcheck for memory leak/race detection in a bigger scenario.
+- **Day 108:** If relevant, shared buffers between CUDA and graphics APIs.
+- **Day 109:** Organized your code into modules/libraries; considered CMake for builds.
+- **Day 110:** Tried MAGMA for advanced linear algebra on GPU.
+- **Day 111:** Implemented unit tests for GPU kernels using CPU reference checks.
+- **Day 112:** Reflect on HPC/ML techniques, debugging, multi-GPU scaling.
+- **Day 113:** Identified top 3 bottlenecks in your main code; systematically addressed them.
+- **Day 114:** Investigated multiple contexts/users sharing GPU resources.
+- **Day 115:** Adjusted L1/Shared memory config if your GPU allows; fine-tuned block dimensions.
+- **Day 116:** Created a reference diagram of global, shared, local, constant, texture, etc.
+- **Day 117:** Re-profiled older mini-projects; applied new knowledge for more gains.
+- **Day 118:** Made a checklist of frequent issues: out-of-bounds, race conditions, divergence, etc.
+- **Day 119:** Checked environment, references, library versions; planned scope carefully.
+- **Day 120:** Final Project: End-to-End HPC or ML Application.
